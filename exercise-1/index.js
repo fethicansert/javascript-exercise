@@ -1,12 +1,10 @@
-let x;
-let y;
-let z;
+let pi = 3.14159;
+let radius;
+let circumtance;
 
-//Nan not a number
-x = Number("apple");
-y = String(3.13);
-z = Boolean("Pizaa")
-
-console.log(x,typeof x);
-console.log(y,typeof z);
-console.log(z,typeof z);
+document.getElementById("button").onclick = function(){
+    radius = window.prompt("Enter the radius");
+    radius = Number(radius);
+    circumtance= Math.round(radius*pi*2);
+    document.getElementById("result").innerHTML=circumtance; 
+}
