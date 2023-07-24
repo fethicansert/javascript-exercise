@@ -1,15 +1,12 @@
-// let username = window.prompt("What is your name?");
-// console.log(username);
-let age;
-document.getElementById("button").onclick = function(){
-    age = window.prompt("How old are you?");
-    document.getElementById("age").innerHTML = age;
-    document.getElementById("button-increase").onclick = function(){
-        console.log(typeof age);
-        age = Number(age);
-        console.log(typeof age);
-        age += 1; 
-        document.getElementById("age").innerHTML = age;
-        
-    }
-}
+let x;
+let y;
+let z;
+
+//Nan not a number
+x = Number("apple");
+y = String(3.13);
+z = Boolean("Pizaa")
+
+console.log(x,typeof x);
+console.log(y,typeof z);
+console.log(z,typeof z);
