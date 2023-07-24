@@ -1,9 +1,13 @@
-let first_name="Fethi"
-let surname="Sert";
-let age = 24;
-let rank = "Muh Atgm"
+let students = 20;
 
-document.getElementById("name").innerHTML= first_name;
-document.getElementById("surname").innerHTML = surname;
-document.getElementById("age").innerHTML = age;
-document.getElementById("rank").innerHTML = rank;
+
+
+students += 1;
+console.log('Students:',students);
+students -= 1;
+console.log('Students:',students);
+students *= 2;
+console.log('Students:',students);
+students /= 2;
+
+console.log(students);
