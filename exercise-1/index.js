@@ -1,13 +1,9 @@
-let students = 20;
+// let username = window.prompt("What is your name?");
+// console.log(username);
 
 
-
-students += 1;
-console.log('Students:',students);
-students -= 1;
-console.log('Students:',students);
-students *= 2;
-console.log('Students:',students);
-students /= 2;
-
-console.log(students);
+let username;
+document.getElementById("myButton").onclick = function(){
+    username = document.getElementById("mytext").value;
+    document.getElementById("mylabel").innerHTML = username;
+}

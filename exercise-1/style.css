@@ -1,15 +1,23 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+label{
+    width: 175px;
+    text-align: start;
+}
+
+
+
+/* .container{
     background-color: seagreen;
     color: white;
     width: 400px;
     height: fit-content;
     text-align: center;
     font-size: 2em;
-}
+} */
